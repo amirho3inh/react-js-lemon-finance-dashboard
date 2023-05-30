@@ -1,0 +1,161 @@
+@font-face {
+    font-family: pinar;
+    src: url("../fonts/pinar/pinar-400.eot");
+    src: url("../fonts/pinar/pinar-400.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/pinar/pinar-400.woff2") format("woff2"),
+    url("../fonts/pinar/pinar-400.woff") format("woff"),
+    url("../fonts/pinar/pinar-400.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: pinar;
+    src: url("../fonts/pinar/pinar-700.eot");
+    src: url("../fonts/pinar/pinar-700.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/pinar/pinar-700.woff2") format("woff2"),
+    url("../fonts/pinar/pinar-700.woff") format("woff"),
+    url("../fonts/pinar/pinar-700.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Black.eot');
+	src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/iransans/woff2/IRANSansWeb(FaNum)_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/iransans/woff/IRANSansWeb(FaNum)_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/iransans/ttf/IRANSansWeb(FaNum)_Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Bold.eot');
+	src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/iransans/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/iransans/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/iransans/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Medium.eot');
+	src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/iransans/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/iransans/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/iransans/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Light.eot');
+	src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/iransans/woff2/IRANSansWeb(FaNum)_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/iransans/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/iransans/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 200;
+	src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_UltraLight.eot');
+	src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/iransans/woff2/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/iransans/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/iransans/ttf/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/iransans/eot/IRANSansWeb(FaNum).eot');
+	src: url('../fonts/iransans/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/iransans/woff2/IRANSansWeb(FaNum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/iransans/woff/IRANSansWeb(FaNum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/iransans/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+  
+body{
+    margin: 0;
+}
+
+.landing{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.landing .logo-box{
+    margin-top: calc(50vh - 15vh);
+}
+
+.landing .logo{
+    width: 150px;
+}
+
+.landing .button-box{
+    position: absolute;
+    bottom: 20px;
+    width: 100vw;
+}
+
+.login{
+    padding: 5rem 2rem 0 2rem;
+    width:100vw;
+    height:100vh;
+}
+
+.login .login-box{
+    margin: calc(50vh - 200px) auto 0 auto;
+    max-width: 400px;
+}
+
+.login .logo{
+    width: 70px;
+}
+
+.login form button{
+    width: 100%;
+    margin-top: 15vh;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.padding-10 {
+	padding: 10px;
+}
+
+.padding-20 {
+	padding: 20px;
+}
+
+.margin-10 {
+	margin: 10px;
+}
+
+.margin-20 {
+	margin: 20px;
+}
+
+.money-box{
+	background-color: #0093E9;
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+	border-radius: 10px;
+	padding: 25px 15px;
+	text-align: center;
+	min-height: 150px;
+	width: 90%;
+    margin: 0 auto;
+}
+
+.money-box p{
+	font-size: 36px;
+	padding: 0;
+	margin: 0;
+}
